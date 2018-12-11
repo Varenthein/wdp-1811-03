@@ -1,0 +1,32 @@
+.section--product {
+
+    .product {
+        
+        &-wrapper {
+            background: white;
+            border: 1px solid $form-border-color;
+            padding: 23px;
+            height: 800px;
+        }
+
+        &-overview {
+
+            &-section {
+                padding: 23px 0;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid $product-overview-underscore;
+                }    
+            }
+
+            &-name {
+                padding-top: 0;
+
+                &-header {
+                    font-size: 22px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+};

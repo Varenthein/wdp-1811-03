@@ -37,6 +37,7 @@
     @extend %transitionsAll;
     background-color: #2a2a2a;
     color: #ffffff;
+    text-decoration: none;
   }
   &.active {
     background-color: $primary;

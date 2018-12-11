@@ -1,7 +1,13 @@
+.heading-back {
+    background: $page-header-back;
+    height: 340px;
+    position: absolute;
+    z-index: -999;
+}
+
 .section--shop {
+
     .shop {
-        background: $page-header-back;
-        height: 340px; 
 
         &-heading {
             padding: 35px 0;
