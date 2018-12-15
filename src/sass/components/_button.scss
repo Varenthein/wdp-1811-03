@@ -46,4 +46,20 @@
   }
 }
 
+.btn-nav {
+  background: none;
+
+  &:hover,
+  &:active {
+    color: #ffffff;
+    background: $primary;
+    border-color: $primary;
+  }
+}
+
+.btn-social {
+  color: $social-button-text;
+  font-size: 13px;
+}
+
 
