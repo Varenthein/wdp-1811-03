@@ -131,7 +131,45 @@
   <div class="section--product">
     <div class="container product-wrapper">
       <div class="row">
-        <div class="col-md-5 col-12 product-gallery"></div>
+        <div class="col-md-5 col-12 product-gallery">
+          <div class="product-featured tab-content" id="productFeatured">
+              <div class="product-featured tab-pane fade show active" id="featured" role="tabpanel"
+                aria-labelledby="featured-tab">
+                  <div id="productFeaturedCarousel" class="product-featured-carousel carousel slide" data-ride="carousel">
+                      <div class="product-featured-carousel-inner carousel-inner">
+                          <div class="product-featured-carousel-inner-item product-item-bg1 carousel-item active">
+                          </div>
+                          <div class="product-featured-carousel-inner-item carousel-item product-item-bg2">
+                          </div>
+                          <div class="product-featured-carousel-inner-item carousel-item product-item-bg3">
+                          </div>
+                          <div class="product-featured-carousel-inner-item carousel-item product-item-bg4">
+                          </div>
+                      </div>
+                      <div class="product-featured-carousel-controlContainer">
+                          <a class="product-featured-carousel-controlContainer-control carousel-control-prev btn-outline btn-nav" href="#productFeaturedCarousel"
+                          role="button" data-slide="prev">
+                              <i class="fas fa-angle-left"></i>
+                              <span class="sr-only">Previous</span>
+                          </a>
+                          <div class="product-featured-carousel-controlContainer-indicatorsContainer ">
+                            <ol class="product-featured-carousel-controlContainer-indicatorsContainer-indicators carousel-indicators">
+                                <li data-target="#productFeaturedCarousel" data-slide-to="0" class="product-featured-carousel-controlContainer-indicatorsContainer-indicators-item product-item-bg1 active"></li>
+                                <li data-target="#productFeaturedCarousel" data-slide-to="1" class="product-featured-carousel-controlContainer-indicatorsContainer-indicators-item product-item-bg2"></li>
+                                <li data-target="#productFeaturedCarousel" data-slide-to="2" class="product-featured-carousel-controlContainer-indicatorsContainer-indicators-item product-item-bg3"></li>
+                                <li data-target="#productFeaturedCarousel" data-slide-to="3" class="product-featured-carousel-controlContainer-indicatorsContainer-indicators-item product-item-bg4"></li>
+                            </ol>
+                          </div>
+                          <a class="product-featured-carousel-controlContainer-control carousel-control-next btn-outline btn-nav" href="#productFeaturedCarousel"
+                          role="button" data-slide="next">
+                              <i class="fas fa-angle-right"></i>
+                              <span class="sr-only">Next</span>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
         <div class="col-md-7 col-12 d-flex flex-column product-overview">
           <div class="product-overview-name product-overview-section d-flex flex-column">
             <div class="product-overview-nav">
@@ -193,9 +231,7 @@
         </div>
       </div>
     </div>
-
   </div>
-  <h1>next secrion</h1>
   <footer>
     <div class="footer-menu">
       <div class="container">

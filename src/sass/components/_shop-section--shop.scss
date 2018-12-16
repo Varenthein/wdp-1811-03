@@ -69,10 +69,12 @@
         .shop {
     
             &-heading {
-    
+                padding-left: 15px; 
+                margin-bottom: 15px;
+                
                 .breadcrumb {
                     position: absolute;
-                    left: 0;
+                    left: 15px;
                     bottom: 9px;
                 }
             }
